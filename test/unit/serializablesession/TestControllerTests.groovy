@@ -3,7 +3,7 @@ package serializablesession
 import grails.test.mixin.TestFor
 
 @TestFor(TestController)
-class TestControllerUnitTests {
+class TestControllerTests {
 
 	void testSomething() {
 	}
