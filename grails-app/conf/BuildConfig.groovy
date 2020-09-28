@@ -3,6 +3,10 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.dependency.resolver = "maven"
 
+grails.project.repos.seGrailsPlugins.url = "https://api.bintray.com/maven/secretescapes/grails-plugins/serializable-session/;publish=1"
+grails.project.repos.default = "seGrailsPlugins"
+grails.release.scm.enabled = false
+
 grails.project.dependency.resolution = {
 	inherits("global") {
 	}
