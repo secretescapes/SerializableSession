@@ -10,7 +10,7 @@ class SerializableSessionGrailsPlugin {
             "grails-app/views/error.gsp"
     ]
 
-    def scm = [ url: "https://github.com/dawsonsystems/SerializableSession" ]
+    def scm = [ url: "https://github.com/secretescapes/SerializableSession" ]
 
     def author = "David Dawson"
     def authorEmail = "david@dawsonsystems.com"
