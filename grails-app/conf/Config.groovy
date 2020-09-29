@@ -24,7 +24,7 @@ log4j = {
 
     warn   'org.mortbay.log'
 
-    debug 'com.dawsonsystems.session.SessionTrackerValve'
+    debug 'com.dawsonsystems'
 }
 
 // Uncomment and edit the following lines to start using Grails encoding & escaping improvements
