@@ -72,7 +72,7 @@ class SessionTrackerValve extends ValveBase {
 				}
 			} catch (Exception otherEx) {
 				log.error("An unexpected error occured while attempting to serialize the session : ${otherEx.message}", otherEx)
-				// not throwing as this suggests a bug in the class, rather than unserializable session
+				// not throwing as this suggests a bug in the plugin, rather than unserializable session
 			}
 
 			if (serializedOk) {
