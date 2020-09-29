@@ -1,4 +1,4 @@
-package com.flashsales.session
+package com.dawsonsystems.session
 
 import org.apache.catalina.Session
 import org.apache.catalina.connector.Request
