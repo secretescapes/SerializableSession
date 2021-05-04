@@ -3,7 +3,11 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.dependency.resolver = "maven"
 
-grails.project.repos.seGrailsPlugins.url = "https://api.bintray.com/maven/secretescapes/grails-plugins/serializable-session/;publish=1"
+
+grails.project.repos.seGrailsPlugins.username = "admin"
+grails.project.repos.seGrailsPlugins.password = "<INSERT_API_KEY>"
+
+grails.project.repos.seGrailsPlugins.url = "https://secretescapes.jfrog.io/artifactory/se-grails-plugins/"
 grails.project.repos.default = "seGrailsPlugins"
 grails.release.scm.enabled = false
 
