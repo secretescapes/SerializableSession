@@ -4,11 +4,11 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.dependency.resolver = "maven"
 
 
-grails.project.repos.seGrailsPlugins.username = "admin"
-grails.project.repos.seGrailsPlugins.password = "<INSERT_API_KEY>"
+grails.project.repos.<repoName>.username = "<INSERT_USER>"
+grails.project.repos.<repoName>.password = "<INSERT_API_KEY>"
 
-grails.project.repos.seGrailsPlugins.url = "https://secretescapes.jfrog.io/artifactory/se-grails-plugins/"
-grails.project.repos.default = "seGrailsPlugins"
+grails.project.repos.<repoName>.url = "<INSERT_ARTIFACTORY_URL>"
+grails.project.repos.default = "<INSERT_REPOSITORY_NAME>"
 grails.release.scm.enabled = false
 
 grails.project.dependency.resolution = {
